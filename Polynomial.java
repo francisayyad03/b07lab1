@@ -50,9 +50,6 @@ public class Polynomial {
 	}
 	
 	public boolean hasRoot (double x) {
-		boolean c = false;
-		if(evaluate(x) == 0)
-			c = true;
-		return c;
+		return evaluate(x) == 0;
 	}
 }
